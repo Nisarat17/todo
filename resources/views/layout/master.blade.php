@@ -7,7 +7,7 @@
     <title> @yield('title',"เว็บไซต์เราเอง")</title>
 </head>
 <body>
-    <header><a href="/">หน้าแรก </a>|<a href ="/about">เกี่ยวกับ</a> |<a href="/contact"> ติดต่อ </a> </header>
+    <header><a href="/">หน้าแรก </a>|<a href ="/about">เกี่ยวกับ</a> |<a href="/content"> ติดต่อ </a> </header>
     <hr>
     <div>
         @yield("content")
